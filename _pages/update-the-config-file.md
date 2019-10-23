@@ -1,7 +1,7 @@
 ---
 title: Update the config file
 ---
-Work your way through these steps to update 
+Work your way through these steps to update
 the `_config.yml` file — this configures the 18F style template for your specific guide:
 
 - [Set the guide name.](#set-name)
@@ -91,7 +91,7 @@ The `url:` should be `https://github.com/18F/MY-NEW-GUIDE`, where
 repository. For the `description:` property, it's OK to enter something
 generic like "main repository." However, if you aren't certain about either
 value, it's also OK to enter placeholder text for these properties and change
-them later, ideally before posting to the 18F Pages server. 
+them later, ideally before posting to Federalist.
 
 The `repos:` entry of this template contains:
 
@@ -107,13 +107,12 @@ repos:{% for i in site.repos %}
 
 The `back_link:` property produces the _Read more 18F Guides_ link just under
 the title of the guide at the top of the page. If your document is not
-actually an 18F Guide, you may change this property to link to 18F Pages— or
-any other collection of documents to which your new "guide" actually belongs.
+actually an 18F Guide, you may change this property to link to any other collection of documents to which your new "guide" actually belongs.
 
 ### <a name="set-google-analytics"></a>Optional: update `google_analytics_ua:`
 
 The `google_analytics_ua:` property defaults to the Google Analytics account
-identifier for all 18F Pages sites. You can override it if you prefer.
+identifier for all 18F Federalist sites. You can override it if you prefer.
 
 ### Next steps
 
